@@ -1,4 +1,119 @@
-
 body {
-    color: red;
+    margin: 0;
+    padding: 0;
+    color: #344856;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero {
+    background: url(images/harbour-sunset2.jpg);
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: aleo;
+    text-align: center;
+}
+
+#hero h1 {
+    text-shadow: 1px 2px #F29E6D;
+    font-size: 4.8rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#hero h2 {
+    text-shadow: 0px 0px 5px #F29E6D;
+    font-size: 2.1rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+#activities-section {
+    /* background: #F1FAEE; */
+    background: #E9F1F2;
+    width: 100%;
+    height: 90vh;
+    max-height: 800px;
+}
+
+#activities-section h3 {
+    margin: 0;
+    padding: 39px 0px;
+    text-align: center;
+}
+
+
+#activity-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.activity-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.activity-holder:hover {
+    /* color: #357FDA; */
+    background: #BDD5E5;
+    border-radius: 6%;
+}
+
+.activity-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #E9F1F2;
+    margin: 50px;
+}
+
+/* style guide section */
+#guide-section {
+    height: 75vh;
+    max-height: 800px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/IMG-1284.jpg);
+    background-image: linear-gradient(#357FDA, #5495c4, #F29E6D);
+}
+
+
+#guide-container {
+    width: 650px;
+    height: 300px;
+    max-width: 800px;
+    background: #BDD5E5;
+    margin-top: 80px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: auto;
+    color: 52, 72, 86;
+    border-bottom: 1px solid #F29E6D;
+}
+
+#guide-img {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+}
+
+#activities-section h3 {
+    font-size: 1.5rem;
+    color: #344856;
 }
